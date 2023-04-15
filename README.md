@@ -26,34 +26,35 @@ Open your web browser and navigate to http://localhost:3000 to view the web appl
 ### File Structure
 The file structure of this boilerplate code is organized as follows:  
 
+
 my-app/  
 ├── app/  
-│   ├── controllers/  
-│   │   ├── authController.js  
-│   │   └── userController.js  
-│   ├── models/  
-│   │   ├── User.js  
-│   │   └── index.js  
-│   ├── routes/  
-│   │   ├── authRoutes.js  
-│   │   └── userRoutes.js  
-│   └── app.js  
+│...├── controllers/  
+│...│...├── authController.js  
+│...│...└── userController.js  
+│...├── models/  
+│...│...├── User.js  
+│...│...└── index.js  
+│...├── routes/  
+│...│...├── authRoutes.js  
+│...│...└── userRoutes.js  
+│...└── app.js  
 ├── client/  
-│   ├── public/  
-│   │   ├── index.html  
-│   │   └── favicon.ico  
-│   ├── src/  
-│   │   ├── components/  
-│   │   ├── pages/  
-│   │   ├── App.js  
-│   │   ├── index.js  
-│   │   └── index.css  
-│   ├── package.json  
-│   └── README.md  
+│...├── public/  
+│...│...├── index.html  
+│...│...└── favicon.ico  
+│...├── src/  
+│...│...├── components/  
+│...│...├── pages/  
+│...│...├── App.js  
+│...│...├── index.js  
+│...│...└── index.css  
+│...├── package.json  
+│...└── README.md  
 ├── config.js  
 ├── package.json  
-└── README.md  
-### Built With  
+└── README.md
+  ### Built With  
 MongoDB - NoSQL database
 Express.js - Server framework
 React.js - Front-end library
